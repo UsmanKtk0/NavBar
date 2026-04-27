@@ -1,0 +1,204 @@
+* {
+  transition: background-color 0.4s ease, color 0.4s ease, filter 0.4s ease;
+}
+
+:root {
+    --color: rgb(255, 247, 247);
+    --bgclr: rgb(34, 34, 34);
+    --ntfyclr: rgb(115, 202, 115);
+    
+}
+
+.light-theme {
+    --bgclr: rgb(255, 247, 247);
+    --color: rgb(34, 34, 34);
+    --ntfyclr: rgb(0, 180, 0);
+    filter: invert(0);
+}
+
+body{
+    background-color: var(--color);
+}
+
+.bg {
+    margin: 50px auto;
+    height: 70px;
+    width: 700px;
+    border-radius: 30px;
+    background-color: var(--bgclr);
+}
+
+.dot1 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 22px 20px;
+    position: absolute;
+}
+
+.dot2 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 22px 30px;
+    position: absolute;
+}
+
+.dot3 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 22px 40px;
+    position: absolute;
+}
+
+.dot4 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 32px 20px;
+    position: absolute;
+}
+
+.dot5 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 32px 30px;
+    position: absolute;
+}
+
+.dot6 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 32px 40px;
+    position: absolute;
+}
+
+.dot7 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 42px 40px;
+    position: absolute;
+}
+
+.dot8 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 7px;
+    margin: 42px 20px;
+    position: absolute;
+}
+
+.dot9 {
+    height: 7px;
+    width: 7px;
+    background-color: var(--color);
+    border-radius: 8px;
+    margin: 42px 30px;
+    position: absolute;
+}
+
+.mic {
+    margin: 13px 70px;
+    position: absolute;
+}
+
+.dot10 {
+    height: 50px;
+    width: 50px;
+    background-color: var(--color);
+    border-radius: 50px;
+    margin: 10px 232px;
+    position: absolute;
+}
+
+.dot11 {
+    height: 50px;
+    width: 50px;
+    background-color: var(--color);
+    border-radius: 50px;
+    margin: 10px 294px;
+    position: absolute;
+}
+
+.dot12 {
+    height: 50px;
+    width: 50px;
+    background-color: var(--color);
+    border-radius: 50px;
+    margin: 10px 356px;
+    position: absolute;
+}
+
+.dot13 {
+    height: 50px;
+    width: 50px;
+    background-color: var(--color);
+    border-radius: 50px;
+    margin: 10px 418px;
+    position: absolute;
+}
+
+.ntfy {
+    width: 42px;
+    height: 28px;
+    background-color: var(--ntfyclr);
+    border-radius: 40px;
+    margin: 21px 585px;
+    position: absolute;
+}
+
+.time {
+    margin: 17px 635px;
+    position: absolute;
+}
+
+.ttxt {
+    color: var(--color);
+    font-weight: 400;
+    font-family: system-ui, Roboto;
+}
+
+.ntxt {
+    color: var(--bgclr);
+    font-weight: 500;
+    font-family: system-ui, Roboto;
+    margin: 1px 10px;
+}
+
+.battery {
+    margin: 12px 660px;
+    position: absolute;
+}
+
+.btry {
+    transform: rotate(-90deg);
+    filter: invert(1);
+    transition: filter 0.3s ease;
+}
+
+.signal {
+    margin: 13px 638px;
+    position: absolute;
+}
+
+.sgnl {
+    filter: invert(1);
+    transition: filter 0.3s ease;
+}
+
+.light-theme .btry,
+.light-theme .sgnl {
+    filter: invert(0);
+}
